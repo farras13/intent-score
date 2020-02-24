@@ -15,8 +15,8 @@ public class ResultActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String terserah = getIntent().getExtras().getString("pemenang");
-            hasil.setText(terserah);
+            String winner = getIntent().getExtras().getString("pemenang");
+            hasil.setText(winner);
         }
     }
 }
