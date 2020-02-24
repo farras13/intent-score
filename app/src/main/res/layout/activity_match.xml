@@ -52,6 +52,7 @@
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="addHome"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -94,6 +95,7 @@
         android:text="Add Away Score"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="addAway"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <Button
@@ -104,6 +106,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="CekPemenang"
         app:layout_constraintTop_toTopOf="parent" />
 
 
